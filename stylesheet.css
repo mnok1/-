@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+html, body, div, span, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote,
+ pre, img, small, strong, sub, sup, var, b,
+ i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+  legend, table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+   max-width:1000px;
+   text-align:center;
+}
+
+
+
+.header-logo{
+border-top:4px solid #004dbd;
+}
+
+/*header-logoのサイズ*/
+#size{
+	height:60px;
+	width:115.59px;
+	margin:15px 15px;
+}
+
+.header-logo img{
+	float:left;
+}
+
+.header-right{
+	float:right;
+}
+
+.search{
+	background:#dcdcdc;
+	border:1px solid #c8c8c8;
+	height:20px;
+	width:180px;
+}
+
