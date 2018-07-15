@@ -1,0 +1,357 @@
+@charset "UTF-8";
+
+html, body, div, span, iframe,
+ h1, h2, h3, h4, h5, h6, p, blockquote,
+ pre, img, small, strong, sub, sup, var, b,
+ i, dl, dt, dd, ol, ul, li, fieldset, form, label,
+  legend, table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'メイリオ',Meiryo,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','ＭＳ Ｐゴシック',sans-serif;
+    margin:0 auto;
+	max-width:80%;
+}
+
+li{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+}
+
+span{
+	font-size:8px;
+}
+
+/*header*/
+
+.header-logo{
+	border-top:4px solid #004dbd;
+
+
+}
+
+#size{
+	height:60px;
+	width:115.59px;
+	margin:15px 15px;
+}
+
+.header-logo img{
+	float:left;
+	margin:30px 0 0;
+}
+
+.header-lang-j{
+	float:right;
+	margin:10px 0;
+	font-size:12px;
+}
+
+.header-lang{
+	float:right;
+	margin:10px;
+}
+
+.header-search{
+	clear:right;
+	float:right;
+	margin:0 15px;
+	font-size:14px;
+}
+
+.search{
+	background:#dcdcdc;
+	border:1px solid #c8c8c8;
+	height:20px;
+	width:180px;
+}
+
+.header-menus{
+	float:left;
+}
+
+.header-menu{
+	margin:5px 15px 20px;
+	float:left;
+	font-weight:bold;
+}
+
+.header-menu:hover{
+	color:#004dbd;
+}
+
+.header-menu:active{
+	color:#004dbd;
+}
+
+.current{
+	padding:10px 8px;
+	background:#f2f0f0;
+	font-size:12px;
+	clear:both;
+}
+.current img{
+	height:20px;
+	width:20px;
+	float:left;
+}
+
+/*main*/
+
+.main{
+	width:70%;
+	float:left;
+}
+
+.overview{
+	margin:40px 5px 30px;
+	padding-bottom:20px;
+	border-bottom:3px solid #004dbd;
+}
+
+.overview p{
+	font-size:18px;
+}
+
+.content{
+	height:60px;
+	border-bottom:1px solid #dcdcdc;
+
+}
+
+.ov-contents{
+	font-size:14px;
+	margin-top:20px;
+	margin-left:15px;
+	width:90px;
+	float:left;
+}
+
+.ov-description{
+	font-size:13px;
+	margin-top:20px;
+	margin-left:60px;
+	float:left;
+}
+
+.content2{
+	height:100px;
+	border-bottom:1px solid #dcdcdc;
+
+}
+
+.ov-contents2{
+	font-size:14px;
+	margin-top:30px;
+	margin-left:15px;
+	width:90px;
+	float:left;
+}
+
+.ov-description2{
+	font-size:13px;
+	margin-top:30px;
+	margin-left:60px;
+	float:left;
+}
+
+/*sidebar*/
+
+.side-bar{
+	margin:120px auto 50px 30px;
+	max-width:25%;
+	float:right;
+}
+
+.side-bar span{
+	font-size:10px;
+}
+
+.sb-menus{
+	padding:15px 10px 15px 10px;
+	background:#f7f7f7;
+}
+
+.sb-menus:hover{
+	background:#c8eaff;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.sb-contents li{
+	padding:8px 20px 8px 20px;
+	background:#f7f7f7;
+}
+
+.sb-contents li:hover{
+	background:#c8eaff;
+	cursor:pointer;
+	text-decoration:underline;
+}
+
+.sb-contents a:hover{
+	text-decoration:underline;
+}
+
+.sb-movie{
+	margin:20px 0;
+	padding:20px 5px 20px 10px;
+	border:1px solid #dcdcdc;
+}
+
+.sb-movie img{
+	margin:10px 0 0 20px;
+}
+
+.sb-movie a:hover{
+	text-decoration:underline;
+}
+
+.sb-panf{
+	margin:20px 0;
+	padding:20px 5px 20px 10px;
+	border:1px solid #dcdcdc;
+}
+
+.sb-panf img{
+	margin:10px 10px 10px 75px;
+}
+
+.sb-panf a:hover{
+	text-decoration:underline;
+}
+
+/*footer*/
+
+.footerstage1{
+	width:100%;
+	background:#f7f7f7;
+	margin:40px 0 0;
+	padding:30px 0px 10px 20px;
+	float:left;
+}
+
+.footerstage1 a:hover{
+	text-decoration:underline;
+}
+
+.ft-contents{
+	margin-right:20px;
+}
+
+.ft-management{
+	font-size:14px;
+	margin-bottom:100px;
+	margin-right:20px;
+	width:130px;
+	float:left;
+}
+
+.ft-company{
+	margin-right:60px;
+	font-size:14px;
+	width:130px;
+	float:left;
+}
+
+.ft-service{
+	font-size:14px;
+	float:left;
+	margin-right:55px;
+}
+
+.ft-opinion{
+	float:left;
+	font-size:14px;
+	margin-right:50px;
+}
+
+.ft-news{
+	float:left;
+	font-size:14px;
+}
+
+
+.footerstage2{
+	width:100%;
+	background:#f7f7f7;
+	padding:30px 0px 10px 20px;
+	float:left;
+}
+
+.footerstage2 a:hover{
+	text-decoration:underline;
+}
+
+.ft-sastena{
+	font-size:14px;
+	margin-bottom:15px;
+	margin-right:60px;
+	width:200px;
+	float:left;
+}
+
+.ft-IR{
+	margin-right:60px;
+	font-size:14px;
+	width:190px;
+	float:left;
+}
+
+.ft-recruit{
+	font-size:14px;
+	float:left;
+	margin-right:55px;
+}
+
+.ft-ivent{
+	float:left;
+	font-size:14px;
+}
+
+.footerstage3{
+	width:100%;
+	background:#f7f7f7;
+	padding:30px 0px 10px 20px;
+	float:left;
+}
+
+.footerstage3 a:hover{
+	text-decoration:underline;
+}
+
+.sns li{
+	float:left;
+	font-size:14px;
+	margin:0 50px 40px 0;
+	
+}
+
+.sns img{
+	height:20px;
+	width:20px;
+	margin-right:5px;
+	
+}
+
+.ft-menu li{
+	float:left;
+	font-size:13px;
+	margin:20px 2px;
+}
+
+.ft-menu a:hover{
+	text-decoration:underline;
+}
+
+.cr p{
+	float:left;
+	font-size:14px;
+	margin:10px 5px;
+}
